@@ -1,0 +1,116 @@
+body{
+    font-size:14px;
+    font-family: arial;
+}
+.anotherflex{
+    display: flex;
+    height:280px;
+    justify-content: center;
+
+}
+
+.flex{
+    display:flex;
+    align-items:center;
+    justify-content: end;
+    gap:25px;
+    margin-right:10px;
+}
+
+.saxe{
+    border-radius:15px;
+}
+.imgDiv{
+    align-items: flex-end;
+    display: flex;
+}
+
+.inputFlex{
+    display:flex;
+    justify-content: center;
+}
+.input{
+    padding-top:12px;
+    padding-bottom:12px;
+    width: 600px;
+    margin-top:30px;
+    border-radius: 20px;
+    border: rgb(185, 185, 185) solid 1px;
+}
+.textFlex{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 50px;
+    
+}
+
+.knopka{
+    padding-top:10px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-bottom:10px;
+    border:none;
+    background-color:#f8f9fa;
+}
+
+.knopka:hover{
+    border:0.5px solid #dfdfdf;
+    border-radius:3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top:9px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:9px;
+}
+
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.language{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    color: #4d5156;
+    gap:15px;
+}
+.teqsti{
+    color:blue;
+}
+.teqsti:hover{
+    text-decoration: underline;
+}
+.saqartvelo{
+    background-color: #f0f0f0; 
+    font-size:15px;
+    padding:15px 36px;
+    color: #70757a;
+    display: block;
+}
+.end{
+    margin-top:341px;
+}
+.about{
+    display:flex;
+    background-color:#f0f0f0 ;
+    margin-bottom:10px;
+}
+.sakartvelo{
+    display:flex;
+    background-color:#f0f0f0 ;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(218, 220, 224);
+}
+p{
+    margin:0;
+}
+.about{
+    display:flex;
+    gap:50px;
+    font-size:14px;
+    justify-content: space-between;
+    padding: 8px 20px;
+    font-size:14px;
+    color: #70757a;
+}
